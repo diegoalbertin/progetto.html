@@ -1,57 +1,115 @@
 <html>
+ 
+<head>
+  <title>Comune Di Rovigo</title>
+</head>
+ 
+<body style="background-color: fefae0">
+  <h1>
+    <center><i>Comune di Rovigo</i></center>
+  </h1>
+</body>
+ 
+<ul id="menu">
+  <li>
+    <a class="active" href="index.html">
+      <!--<i class="fas fa-home"></i>-->
+      Home
+    </a>
+  </li>
+  <li>
+    <a href="storia.html">
+      <!--<i class="gg-home-alt"></i>-->
+      Storia
+    </a>
+  </li>
+  <li>
+    <a href="comunicazioni.html">
+      <!--<i class="gg-home-alt"></i>-->
+      Comunicazioni
+    </a>
+  </li>
+  <li>
+    <a href="contatti.html">
+      <!--<i class="gg-home-alt"></i>-->
+      Contatti & Info
+    </a>
+  </li>
+</ul>
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap');
-        @import url('https://css.gg/home-alt.css');
-        @import url('https://css.gg/clipboard.css');
-        @import url('https://css.gg/bell.css');
-        @import url('https://css.gg/info.css');
-        @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+<center>
+    <img src="https://www.rovigocomics.it/wp-content/uploads/2017/03/rovigo-300x260.png" alt="Città di Rovigo" width=200 height=160 style="margin-top: -210px; margin-left: -1000px;">
+</center>
+<center>
+    <img src="https://www.latitudeslife.com/wp-content/uploads/Rovigo_-Piazza-Garibaldi-Rovigo.jpg" style ="margin-top:30px">
+</center>
 
-    h1{
-        font-family: 'Yellowtail', cursive;
-        font-size: 80  
-    } 
+<h4 style="margin-top: 40px">
+    <center>Progettazione di  Diego Albertin, Angelo Pavan, Alessio Donini, Michele Gabrieli, Enrico Toso Paolo</center>
+</h4>
 
-    .topnav{
-        background-color: dda15e;
-        overflow: hidden;
-        font-family: 'Roboto Mono', monospace;
-        
-    }
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 
-    .topnav a {
-        float: justify;
-        color: black;
-        text-align: justify;
-        padding: 15px 15px;
-        text-decoration: none;
-        font-size: 20px;
-    }
+  html{
+      max-width: 100%;
+      overflow-x: hidden;
+  }
 
-    .topnav a:hover {
-        background-color: bc6c25;
-        color: black;
-    }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+ 
+  h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 80
+  }
 
-    .topnav a.active {
-        background-color: bc6c25;
-        color: white;
-    } 
-    </style>
+  h2{
+    font-family: 'Merriweather', serif;
+    font-size: 50;
+    margin-top: -40px;
+  } 
 
-    <head>
-        <title>Comune Di Rovigo</title>
-    </head>
+  h4{
+    font-size:larger;
+  } 
 
-    <body style="background-color: fefae0">
-        <h1><center><i>Comune di Rovigo</i></center></h1>       
-    </body>
-
-    <div class="topnav">
-        <a href="index.html"><i class="gg-home-alt"></i>Home</a>
-        <a href="storia.html"><i class="gg-clipboard"></i>Storia</a>
-        <a href="comunicazioni.html"><i class="gg-bell"></i></i>Comunicazioni</a>
-        <a href="contatti.html"><i class="gg-info"></i>Contatti & Info</a>
-    </div>    
+  #menu {
+    text-align: center;
+    background-color: #dda15e;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 15px;
+    font-family: 'Roboto Mono', monospace;    
+  }
+ 
+  #menu li {
+    display: inline !important;
+  }
+ 
+  #menu li a {
+    color: black;
+    padding: 15px 15px !important;
+    text-decoration: none !important;
+    font-size: 20px;
+  }
+ 
+  #menu li a.active {
+    background-color: #bc6c25;
+  }
+ 
+  #menu li a:hover {
+    background-color: #bc6c25;
+    color: black;
+  }
+ 
+  #menu li + li {
+    margin-left: 40px;    
+  }
+</style>
 </html>
